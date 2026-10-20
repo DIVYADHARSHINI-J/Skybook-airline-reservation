@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 
-const FLIGHT_API = 'http://localhost:8081/api/flights';
-const BOOKING_API = 'http://localhost:8082/api/bookings';
-
+const FLIGHT_API = 'https://skybook-airline-reservation-0anr.onrender.com/api/flights';
+const BOOKING_API = 'https://skybook-airline-reservation-9nkc.onrender.com/api/bookings';
 export default function App() {
   const [flights,setFlights] = useState([]);
   const [bookings,setBookings] = useState([]);
